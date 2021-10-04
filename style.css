@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Sarabun:ital,wght@0,100;0,200;0,400;0,600;1,100;1,200;1,400;1,600&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #fffbea;
+	font-family: 'Sarabun', sans-serif;
+	font-size: 14px;
+	color: #4e4840;
+	font-weight: 100;
+}
+
+.wrapper {
+	max-width: 800px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+h2 {
+	font-size: 16px;
+	color: #a15638;
+}
+
+.header {
+	margin-bottom: 15px;
+}
+
+.header__title h1 {
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #a15638;
+}
+
+.header__content {
+	display: flex;
+	align-items: center;
+	background-color: #bacfbe4e;
+	padding: 5px 10px;
+	border-radius: 3px;
+}
+
+.header__content img {
+	margin-right: 10px;
+}
+
+.header__img img {
+	max-width: 150px;
+	border-radius: 3px;
+}
+
+.header__content-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.header__content-text>div {
+	margin-bottom: 10px;
+}
+
+.header__name-title,
+.header__age-title,
+.header__experience-title,
+.header__about-title {
+	font-weight: bold;
+	margin-bottom: 3px;
+	color: #537466;
+}
+
+.header__about-block {
+	margin-bottom: 0px;
+}
+
+.target,
+.time,
+.courses {
+	background-color: #bacfbe4e;
+	padding: 10px;
+	border-radius: 3px;
+	margin-bottom: 15px;
+}
+
+.header__title,
+.target__title,
+.time__title,
+.courses__title {
+	margin-bottom: 10px;
+}
+
+.target__list {
+	margin-left: 18px;
+}
+
+.time__timetable-row {
+	display: flex;
+	width: 100%;
+}
+
+.time__day,
+.time__qty {
+	width: 49%;
+	border-bottom: solid #fffbea 1px;
+	padding-bottom: 3px;
+}
+
+.time__qty {
+	text-align: center;
+}
+
+.courses__tiblel-header-row,
+.courses__table-row {
+	display: flex;
+	width: 100%;
+}
+
+.courses__table-header-column1,
+.courses__table-header-column2,
+.courses__table-header-column3 {
+	width: 33%;
+	text-align: center;
+}
+
+.courses__tiblel-header-row {
+	font-weight: bold;
+	border-bottom: solid #fffbea 2px;
+	padding-bottom: 3px;
+	color: #537466;
+}
+
+.courses__table-row {
+	border-bottom: solid #fffbea 1px;
+	padding-bottom: 3px;
+}
+
+.contacts {
+	margin-bottom: 20px;
+}
+
+.contacts__block {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.contacts__item {
+	text-decoration: none;
+	cursor: pointer;
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+}
